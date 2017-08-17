@@ -42,7 +42,7 @@ export class MongoCollection {
         return result.value;
     }
 
-    async deleteById(id) {
+    deleteById(id) {
         return this.delete(this.getFilterBydId(id));
     }
 
