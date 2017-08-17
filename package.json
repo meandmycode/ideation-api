@@ -1,0 +1,48 @@
+{
+  "name": "ideation-api",
+  "version": "1.0.0",
+  "description": "All good ideas need an API",
+  "keywords": [
+    "mongo",
+    "restify"
+  ],
+  "maintainers": [
+    "Stephen Taylor <meandmycode@gmail.com> (meandmycode.com)"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "engines": {
+    "node": "^8.3.0",
+    "npm": "^5.3.0"
+  },
+  "@std/esm": {
+    "esm": "js"
+  },
+  "ava": {
+    "require": "@std/esm"
+  },
+  "scripts": {
+    "start": "node -r @std/esm src/index",
+    "debug": "npx nodemon --exec npm start",
+    "test": "npm run lint && npm run unit",
+    "lint": "npx eslint .",
+    "unit": "npx ava"
+  },
+  "dependencies": {
+    "@std/esm": "^0.3.0",
+    "ajv": "^5.2.2",
+    "mongodb": "^2.2.31",
+    "restify": "^5.1.0",
+    "restify-cors-middleware": "^1.0.1",
+    "restify-errors": "^5.0.0",
+    "winston": "^2.3.1"
+  },
+  "devDependencies": {
+    "ava": "^0.22.0",
+    "babel-eslint": "^7.2.3",
+    "eslint": "^4.4.1",
+    "nodemon": "^1.11.0",
+    "sinon": "^3.2.0",
+    "supertest": "^3.0.0"
+  }
+}
