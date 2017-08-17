@@ -10,7 +10,7 @@
 
 ## Debugging
 
-To start debugging run `npm run debug`, this will start a debug development server at http://localhost:80.
+To start debugging run `npm run debug`, this will start a debug development server at http://localhost.
 
 ## Production
 
