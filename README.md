@@ -1,6 +1,6 @@
 ## Technology stack
 
-**📏 [Restify](http://restify.com/) 🦄 [MongoDB](https://www.mongodb.com/) 🚨 [AVA](https://github.com/avajs/ava/)**
+**📏 [Restify](http://restify.com/) 🐐 [MongoDB](https://www.mongodb.com/) 🚨 [AVA](https://github.com/avajs/ava/)**
 
 ## Prerequisites
 
